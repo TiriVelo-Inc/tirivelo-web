@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TiriVelo Pet Services Web Platform
+> The project provides public-facing pages, user registration, dashboards, and additional features. Its primary goal is to promote TiriVelo’s services while allowing customers to sign up, manage their accounts, and easily book pet services online.
 
-## Getting Started
+## Tech Stack
+- **Frontend:** Next.js (App Router), React  
+- **Backend / Database:** Supabase (Auth, Database, Storage)  
+- **Language / Tools:** TypeScript, Tailwind CSS (optional), ESLint
+- **Package Manager (recommended):** pnpm (works with npm/yarn as well)
 
-First, run the development server:
+## Prerequisites
+Before running the project, ensure you have:
+
+- Node.js (LTS recommended)  
+- pnpm (recommended) or npm / yarn  
+
+Helpful links:  
+- [Node.js Downloads](https://nodejs.org/en/download/)  
+- [pnpm Installation](https://pnpm.io/installation)  
+
+---
+
+## Setup & Running Locally
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/TiriVelo-Inc/tirivelo-web.git
+cd tirivelo-web
+```
+Install dependencies
 
 ```bash
-npm run dev
+pnpm install
 # or
-yarn dev
+npm install
 # or
-pnpm dev
+yarn install
 # or
-bun dev
+bun install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Set up environment variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Create a .env.local file at the project root
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Run the development server
 
-## Learn More
+```bash
+pnpm dev
+# or 
+npm run dev
+# or 
+yarn dev
+# or
+bun run dev
+```
+Open http://localhost:3000 in your browser.
 
-To learn more about Next.js, take a look at the following resources:
+## Helpful Links
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js Documentation](https://nextjs.org/docs)  
+- [React Documentation](https://react.dev/learn)  
