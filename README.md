@@ -5,13 +5,12 @@
 - **Frontend:** Next.js (App Router), React  
 - **Backend / Database:** Supabase (Auth, Database, Storage)  
 - **Language / Tools:** TypeScript, Tailwind CSS (optional), ESLint
-- **Package Manager (recommended):** pnpm (works with npm/yarn as well)
 
 ## Prerequisites
 Before running the project, ensure you have:
 
 - Node.js (LTS recommended)  
-- pnpm (recommended) or npm / yarn  
+- pnpm (recommended) or npm / yarn / bun 
 
 Helpful links:  
 - [Node.js Downloads](https://nodejs.org/en/download/)  
@@ -37,10 +36,6 @@ yarn install
 # or
 bun install
 ```
-
-Set up environment variables
-
-- Create a .env.local file at the project root
 
 Run the development server
 
